@@ -2,6 +2,8 @@
 Demo Project A
 Made by Jack Donofrio
 11:51 PM July 14 2020
+
+Run the program to see your progress
 '''
 
 # returns sum of a and b
@@ -63,3 +65,40 @@ def exponent_test():
     assert(exponent(2,3) == 8)
     assert(exponent(4, 0.5) == 2)
     assert(exponent(8, 1 / 3) == 2)
+
+try:
+    addition_test()
+    print("Passed addition test")
+except:
+    print("Failed addition test")
+
+
+try:
+    subtraction_test()
+    print("Passed subtraction test")
+except:
+    print("Failed subtraction test")
+
+try:
+    multiplication_test()
+    print("Passed multiplication test")
+except:
+    print("Failed multiplication test")
+
+try:
+    division_test()
+    print("Passed division test")
+except:
+    print("Failed division test")
+
+try:
+    integer_division_test()
+    print("Passed integer division test")
+except:
+    print("Failed integer division test")
+
+try:
+    exponent_test()
+    print("Passed exponent test")
+except :
+    print("Failed exponent test")
